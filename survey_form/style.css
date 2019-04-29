@@ -1,0 +1,113 @@
+/*
+    background-color:  #6ce2d9;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #94d1cc;
+    font-size: 10px;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: center;
+}
+
+#title {
+    font-size: 4rem;
+    text-align: center;
+    margin: 6rem auto 3rem auto;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto 2rem auto;
+    background-color: #f7f9f9;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+#description {
+    font-size: 1.6rem;
+    word-spacing: 1.8;
+    letter-spacing: 1.2;
+    font-weight: 100;
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+form {
+    font-size: 1.6rem;
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.form-row {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-flow: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-field {
+    width: 48%;
+    margin: 0 2rem;
+    text-align: right;
+}
+
+.form-input {
+    width: 48%;
+    margin: 0 2rem;
+    text-align: left;
+}
+
+[id="name"],[id="email"],[id="number"] {
+    padding: 3px;
+    font-size: 1.4rem;
+    width: 60%;
+}
+
+[id="dropdown"],[id="user-like"] {
+    padding: 4px;
+    font-size: 1.4rem;
+    width: 38%;
+    height: 3.5rem;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+
+#recommend, #field-to-improve {
+    border: none;
+}
+
+#recommend ul, #field-to-improve ul {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.level > div {
+    align-self: flex-start;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 10rem;
+    height: 4rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #59ace0;
+    color: #fff;
+    font-size: 1.6rem;
+    border: none;
+}
